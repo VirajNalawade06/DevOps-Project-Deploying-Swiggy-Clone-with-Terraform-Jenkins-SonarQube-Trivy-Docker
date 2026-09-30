@@ -1,0 +1,27 @@
+#Nav-logo {
+    background: linear-gradient(90deg, #fffaf2 0%, #fff 100%);
+    border-radius: 18px;
+    padding: 8px 16px;
+}
+
+.nav-logo-img {
+    filter: brightness(0) saturate(100%) invert(54%) sepia(48%) saturate(1912%) hue-rotate(348deg) brightness(95%) contrast(101%);
+    opacity: 0.95;
+}
+
+#Nav-logo p:hover{
+    color: #f26a21;
+    cursor: pointer;
+}
+
+#Nav-icons p {
+    font-weight: 600;
+    color: #2d2d2d;
+    transition: all 0.2s ease;
+}
+
+#Nav-icons p:hover{
+    color: #f26a21;
+    cursor: pointer;
+    transform: translateY(-1px);
+}

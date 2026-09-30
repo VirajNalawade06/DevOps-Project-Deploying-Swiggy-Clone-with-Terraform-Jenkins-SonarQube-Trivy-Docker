@@ -1,0 +1,18 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+#banner-img {
+    padding: 10px 0 18px;
+}
+
+#banner-img img{
+    cursor: pointer;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(242, 106, 33, 0.12);
+    transition: transform 0.2s ease;
+}
+
+#banner-img img:hover {
+    transform: translateY(-3px);
+}

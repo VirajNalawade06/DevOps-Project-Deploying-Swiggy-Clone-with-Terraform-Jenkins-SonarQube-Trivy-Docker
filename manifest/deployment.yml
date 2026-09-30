@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ecr-deployment
+  labels:
+    app: ecr
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ecr
+  template:
+    metadata:
+      labels:
+        app: ecr
+    spec:
+      containers:
+      - name: docker
+        image: 058264346116.dkr.ecr.ap-south-1.amazonaws.com/deepesh/swiggy:latest
+        ports:
+        - containerPort: 3000

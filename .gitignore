@@ -1,0 +1,10 @@
+node_modules/
+build/
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+.env*
+!.env.example
+trivy*.txt
+dependency-check-report.*
+npm-debug.log*

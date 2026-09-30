@@ -1,0 +1,29 @@
+.buttons-grp button{
+    width: 300px;
+    padding: 13px 0;
+    background: #fffaf7;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #3d2d26;
+    border: 1.5px solid rgba(242, 106, 33, 0.22);
+    transition: all 0.2s ease;
+}
+
+.buttons-grp button:hover,
+.buttons-grps button:hover{
+    background: #fff0e4;
+    border-color: #f26a21;
+    color: #f26a21;
+    transform: translateY(-1px);
+}
+  
+.buttons-grps button{
+    width: 49%;
+    padding: 13px 0px;
+    background: #fffaf7;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #3d2d26;
+    border: 1.5px solid rgba(242, 106, 33, 0.22);
+    transition: all 0.2s ease;
+}
