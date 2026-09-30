@@ -1,22 +1,19 @@
-# Use a supported Node.js LTS version
-FROM node:20-alpine
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Copy dependency manifests first for better Docker caching
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install
+RUN npm ci
 
-# Copy the application source code
 COPY . .
 
-# Build the production bundle
 RUN npm run build
 
-# Expose the app port
-EXPOSE 3000
+FROM nginx:alpine
 
-# Run the React development server for local container usage
-CMD ["npm", "start"]
+COPY --from=builder /app/build /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
