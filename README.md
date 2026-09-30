@@ -18,10 +18,7 @@ This project is a Swiggy clone 🍔 built with DevOps practices for scalability 
 7. **Docker & DockerHub** ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![DockerHub](https://img.shields.io/badge/DockerHub-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 
-## Cloning Project
-```bash
-git clone https://github.com/deepeshmlgupta/DevOps_Swiggy.git
-```
+
 
 ## Installation
 
@@ -173,8 +170,6 @@ terraform apply -auto-approve
 
 
 
-## About Me  
-<img src="https://media.licdn.com/dms/image/v2/D5603AQGOyuk6Tn6-XA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1719034834385?e=1741824000&v=beta&t=CrlkrEiQGICb_GQIXvNw_CEG8bcifMm96JB4jiqYyQ0" alt="Deepesh Profile Image" width="150" height="150" style="border-radius:50%;">
 
 **Deepesh Gupta**    
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepeshmlgupta/)  
