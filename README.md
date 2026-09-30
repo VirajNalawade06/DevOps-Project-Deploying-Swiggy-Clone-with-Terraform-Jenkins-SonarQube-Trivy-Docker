@@ -153,8 +153,7 @@ terraform apply -auto-approve
   ![image](https://github.com/user-attachments/assets/a8b45948-766a-49a4-b779-91ac3ce0443c)
 - Github Webhook
   - <b>Go to your github Repo, <mark>Setting --> Webhook</mark> and click on create </b>
-  ![image](https://github.com/user-attachments/assets/c4d7c593-ac74-49af-a2ca-7eda4c2add6c)
-  ![image](https://github.com/user-attachments/assets/fe38edc5-912d-4357-804f-872e684417cd)
+
 
 
 #
